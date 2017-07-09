@@ -43,6 +43,10 @@ h3 {
   .carousel-caption h3 {
       color: #fff !important;
   }
+  
+.modal-header {
+  background: #fff
+}
   @media (max-width: 600px) {
     .carousel-caption {
       display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
@@ -87,7 +91,7 @@ h3 {
       color: #000;
   }
   .modal-header, h4, .close {
-      background-color: #333;
+      background-color: #fff;
       color: #fff !important;
       text-align: center;
       font-size: 30px;

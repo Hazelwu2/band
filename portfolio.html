@@ -61,15 +61,14 @@
 			  
 			  <div class="row">
 			    <div class="col-sm-3">
-			      <a href="#demo" data-toggle="collapse">
+			      <a href="#demo" data-toggle="collapse" data-toggle="modal" data-target="#myModal">
 			        <img src="imgs/blue.jpg" class="img-circle person" alt="Random Name">
 			      </a>
 			      <div id="demo" class="collapse">
 			      <p class="text-center"><strong>Blue Chen</strong></p>
 
-			        <p>Guitarist <br></p>
-			        <p>莫名其妙<br>我有兩隻貓</p>
-			        <a href="portfolio.html" data-toggle="tooltip" title="Visit Portfolio"><i class="glyphicon glyphicon-sunglasses"></i></a>
+			        <p>你敢不敢<br></p>
+			        <p>feat. SandyYang</p>
 			      </div>
 			    </div>
 			    <div class="col-sm-3">
@@ -113,14 +112,47 @@
 			</div>
 		</div>
 	<div class="container">
-			<div class="embed-responsive embed-responsive-16by9">
+		<!-- Trigger the modal with a button -->
+		<!-- <a href="#" class="btn" data-toggle="modal" data-target="#myModal">
+			<img src="imgs/blue.jpg" alt="video" class="img-responsive">
+		</a> -->
+			
+		<!-- Modal -->
+		<div id="myModal" class="modal fade" role="dialog">
+		  <div class="modal-dialog modal-lg">
+			
+		    <!-- Modal content-->
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal">&times;</button>
+		      </div>
+		      <div class="modal-body">
+		      	<div class="row">
+		      		<div class="col-lg-8 col-lg-offset-2">
+		      			<div class="Blue embed-responsive embed-responsive-16by9">
+		      					<iframe class="embed-responsive" src="https://drive.google.com/file/d/0B3HSZTTKR6b0ZlpDUWVxWUk0WGs/preview"></iframe>
+		      			</div>
+		      		</div>
+		      	</div>
+		
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+
+		  </div>
+		</div>
+
+		<div class="grid">
+			<div class="Blue embed-responsive embed-responsive-16by9">
+					<img src="imgs/blue-v1.JPG" class="Blue img-responsive">
 					<iframe class="embed-responsive" src="https://drive.google.com/file/d/0B3HSZTTKR6b0ZlpDUWVxWUk0WGs/preview"></iframe>
 			</div>
-		</div>	
-
-
-		
+		</div>
+	</div>	
 </div>
+	
 	<footer class="text-center">
 	  <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
 	    <span class="glyphicon glyphicon-chevron-up"></span>
@@ -133,6 +165,7 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="/path/to/isotope.pkgd.min.js"></script>
 	<script src="main.js"></script>
 
 	<script>
