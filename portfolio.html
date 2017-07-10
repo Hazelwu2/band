@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
 
+
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
@@ -23,12 +24,12 @@
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>                        
 		      </button>
-		      <a class="navbar-brand" href="#">青春就是一場莫名其妙</a>
+		      <a class="navbar-brand" href="#index.html">有為青年</a>
 		    </div>
 		    <div class="collapse navbar-collapse" id="myNavbar">
 		      <ul class="nav navbar-nav navbar-right">
 		        <li><a href="index.html">HOME</a></li>
-		        <li><a href="#Blue">Blue</a></li>
+		        <li><a href="#blue">Blue</a></li>
 		        <li><a href="#Hazel">Hazel</a></li>
 		        <li><a href="#Michelle">Michelle</a></li>
 		        <li><a href="#Xhora">Xhora</a></li>
@@ -51,97 +52,173 @@
 <div id="content">
 		<div id="band" class="mypage">
 			<div class="container text-center">
-			  <h3>理所當然的，也有莫名的演出</h3>
-			  <p><em>Portfoilo</em></p>
-			  <p>互不來往的彼此，我們最後莫名其妙的聚集在咖啡廳<br>
-			  為了聽演唱，為了排惆悵，然後也莫名其妙的組了團，有了我們，有為青年。</p>
-			  <br>
-			  
+			  <div class="page-title">
+			  	  <div class="title-intro">
+					  <h3 class="h4">理所當然的，當然也有莫名的演出啊</h3>
+					  
+					  <p>互不來往的彼此<br>
+					  	我們最後莫名其妙的聚集在咖啡廳<br>
+					  為了聽演唱，為了排惆悵，然後也莫名其妙的組了團，有了我們，有為青年。</p>
+					  <br>
+					  <strong>Portfoilo | 點頭像看個人作品</strong>
+				  </div>
+			</div>
 			  
 		</div>
 	<div class="devides">
 		<div class="container">
 			<div class="filters">
-				<div class="row">
-				    <div class="button-group">
-				    		<div class="col-sm-2 col-sm-offset-1">
-				            <button href="#" data-filter="" class="is-checked button data">
-				            	<img src="imgs/all.jpg" class="img-circle person" alt="Random Name">
+				<!-- <div class="row"> -->
+				    <ul class="button-group list-inline list-unstyled row">
+						<!-- <li>
+				    		<div class="col-sm-6 col-md-2 col-md-offset-1 col-lg-2">
+				            <button href="#" data-filter="" class="all img-circle is-checked button data">
+				            	 <img src="imgs/all.jpg" class="img-circle person" alt="Random Name">
 				            </button>
-				            </div>
-				            <div class="col-sm-2">
-				            <button href="#" data-filter=".r-blue" class="button data">
+				            </div> 
+			                </li> -->
+			            <li class="col-xs-3 col-md-2 col-md-offset-2 col-lg-2 col-lg-offset-2">
+				            
+				            <button href="#" id="ev8d" data-filter=".r-blue" class="button data">
 								<img src="imgs/blue.jpg" class="img-circle person" alt="Random Name">
+								<small class="hidden-xs">Blue Chen</small>
 				            </button>
-				            </div>
-				            <div class="col-sm-2">
-				            <button href="#" data-filter=".r-hazel" class="button data">
+				        </li>
+				        <li class="col-xs-3 col-md-2 col-lg-2">
+				           
+				            <button href="#" id="ev8d" data-filter=".r-hazel" class="button data">
 				            	<img src="imgs/hazel.jpg" class="img-circle person" alt="Random Name">
+				            	<small class="hidden-xs">Hazel Wu</small>
 				            </button>
-				            </div>
-				            <div class="col-sm-2">
-				            <button href="#" data-filter=".r-michelle" class="button data">
+				        </li>
+				        <li class="col-xs-3 col-md-2 col-lg-2">
+				            <button href="#" id="ev8d" data-filter=".r-michelle" class="button data">
 				            	<img src="imgs/michelle.jpg" class="img-circle person" alt="Random Name">
+				            	<small class="hidden-xs">Michelle Lin</small>
 				            </button>
-				            </div>
-				            <div class="col-sm-2">
-				            <button href="#" data-filter=".r-xosha" class="button data">
+				        </li>
+				        <li class="col-xs-3 col-md-2 col-lg-2">
+				            <button href="#" id="ev8d" data-filter=".r-xosha" class="button data">
 				            	<img src="imgs/xosha.jpg" class="img-circle person" alt="Random Name">
+				            	<small class="hidden-xs">Xosha Lin</small>
 				            </button>
-				            </div>
-				    </div>
+				        </li>
+				        </ul>
+				    <!-- </div> -->
 				</div>   
 			</div>
-		<div class="grid">
+
 			<div class="row">
-				<div class="col-md-4">
-					<div class="music r-blue" data-toggle="modal" data-target="#myModal_1"> <!--你敢不敢-->
-						        <div class="thumbnail">
-							        <a href="#">
-							        <img class="img-responsive" src="imgs/hazel.jpg">    
-							        </a>
-						        </div>
+				<div class="grid col-sm-2 col-md-3 col-lg-6"> <!--你敢不敢-->
+					<div class="music r-blue" > 
+				        <div class="hover-bg">
+					        <a href="#myModal_1" data-toggle="modal">
+					        <img class="img-responsive" src="imgs/portfolio/v1.jpg">
+					        <div class="hover-text">
+					        	<h3>你敢不敢 徐佳瑩</h3>
+					        	<small>Cover By Blue Chen / feat. SandyYang</small>
+					        </div>
+					        </a>
+				        </div>
 					</div>
 				</div>
-			</div>
-				<div class="col-md-4">
-				    <div class="music r-hazel r-michelle" data-toggle="modal" data-target="#myModal_2"> <!--真愛等一下-->
-				            <img class="thumbnail img-responsive" src="imgs/portfolio/v2.JPG">                
-				    </div>
+				<div class="grid col-sm-2 col-md-3 col-lg-6"> <!--真愛等一下-->
+					<div class="music r-hazel r-michelle"> 
+				        <div class="hover-bg">
+					        <a href="#myModal_2" data-toggle="modal">
+					        <img class="img-responsive" src="imgs/portfolio/v2.JPG">
+					        <div class="hover-text">
+					        	<h3>真愛等一下 陶喆/蔡健雅</h3>
+					        	<small>Cover By Hazel Wu / Michelle Chen</small>
+					        </div>
+					        </a>
+				        </div>
+					</div>
 				</div>
-				<div class="col-md-4">
-				    <div class="music r-hazel" data-toggle="modal" data-target="#myModal_3"> <!--無眠-->
-				            <img class="thumbnail img-responsive" src="imgs/portfolio/v3.PNG">                
-				    </div>
+				<div class="grid col-sm-2 col-md-3 col-lg-6"> <!--無眠-->
+					<div class="music r-hazel"> 
+				        <div class="hover-bg">
+					        <a href="#myModal_3" data-toggle="modal">
+					        <img class="img-responsive" src="imgs/portfolio/v3.PNG">
+					        <div class="hover-text">
+					        	<h3>無眠 蘇打綠</h3>
+					        	<small>Cover By Hazel Wu</small>
+					        </div>
+					        </a>
+				        </div>
+					</div>
 				</div>
-				<div class="col-md-4">
-				    <div class="music r-blue r-xosha" data-toggle="modal" data-target="#myModal_4"> <!--帥到分手-->
-				            <img class="thumbnail img-responsive" src="imgs/portfolio/v4.PNG">                
-				    </div> 
-			    </div>
-			    <div class="col-md-4">
-				    <div class="music r-hazel" data-toggle="modal" data-target="#myModal_5"> <!--稻香-->
-				            <img class="thumbnail img-responsive" src="imgs/portfolio/v5.JPG">                
-				    </div> 
-			    </div>
-			    <div class="col-md-4">
-				    <div class="music r-michelle" data-toggle="modal" data-target="#myModal_6"> <!--李白-->
-				            <img class="thumbnail img-responsive" src="imgs/portfolio/v6.PNG">                
-				    </div> 
-			    </div>
-			    <div class="col-md-4">
-				    <div class="music r-michelle" data-toggle="modal" data-target="#myModal_7"> <!--Maroon 5 - Maps-->
-				            <img class="thumbnail img-responsive" src="imgs/portfolio/v7.PNG">                
-				    </div> 
-			    </div>
-			    <div class="col-md-4">
-				    <div class="music r-michelle" data-toggle="modal" data-target="#myModal_8"> <!--The Script - The man who can't be move drum-->
-				            <img class="thumbnail img-responsive" src="imgs/portfolio/v8.PNG">                
-				    </div> 
-			    </div>
-		</div>
+				<div class="grid col-sm-2 col-md-3 col-lg-6"> <!--帥到分手-->
+					<div class="music r-xosha"> 
+				        <div class="hover-bg">
+					        <a href="#myModal_4" data-toggle="modal">
+					        <img class="img-responsive" src="imgs/portfolio/v4.PNG">
+					        <div class="hover-text">
+					        	<h3>帥到分手 周湯豪</h3>
+					        	<small>Cover By Xosha Lin / feat. SandyYang</small>
+					        </div>
+					        </a>
+				        </div>
+					</div>
+				</div>
+				<div class="grid col-sm-2 col-md-3 col-lg-6"> <!--稻香-->
+					<div class="music r-hazel"> 
+				        <div class="hover-bg">
+					        <a href="#myModal_5" data-toggle="modal">
+					        <img class="v5 img-responsive" src="imgs/portfolio/v5.JPG">
+					        <div class="hover-text">
+					        	<h3>稻香 周杰倫</h3>
+					        	<small>Cover By Hazel Wu</small>
+					        </div>
+					        </a>
+				        </div>
+					</div>
+				</div>
+				<div class="grid col-sm-2 col-md-3 col-lg-6"> <!--李白-->
+					<div class="music r-michelle"> 
+				        <div class="hover-bg">
+					        <a href="#myModal_6" data-toggle="modal">
+					        <img class="img-responsive" src="imgs/portfolio/v6.PNG">
+					        <div class="hover-text">
+					        	<h3>李白 李榮浩</h3>
+					        	<small>Cover By Michelle</small>
+					        </div>
+					        </a>
+				        </div>
+					</div>
+				</div>
+				<div class="grid col-sm-2 col-md-3 col-lg-6"> <!--Maroon 5 - Maps-->
+					<div class="music r-michelle" > 
+				        <div class="hover-bg">
+					        <a href="#myModal_7" data-toggle="modal">
+					        <img class="img-responsive" src="imgs/portfolio/v7.PNG">
+					        <div class="hover-text">
+					        	<h3>Maroon 5 - Maps</h3>
+					        	<small>Cover By Michelle Chen</small>
+					        </div>
+					        </a>
+				        </div>
+					</div>
+				</div>
+				<div class="grid col-sm-2 col-md-3 col-lg-6"> <!--The Script - The man who can't be move drum-->
+					<div class="music r-michelle" > 
+				        <div class="hover-bg">
+					        <a href="#myModal_8" data-toggle="modal">
+					        <img class="img-responsive" src="imgs/portfolio/v8.PNG">
+					        <div class="hover-text">
+					        	<h3>The Script - The man who can't be move</h3>
+					        	<small>Cover By Michelle Chen</small>
+					        </div>
+					        </a>
+				        </div>
+					</div>
+				</div>
+
+			</div> <!-- row cloude -->
+		</div> <!-- container cloude -->
 		
-		<!--你敢不敢-->
+		<!--Modal Box Started-->
+		<!-- 你敢不敢-->
 		<div class="modal fade" id="myModal_1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 		            <div class="portfolio-modal modal-content" role="document"> 
 		            	<div class="close-modal" data-dismiss="modal">
@@ -365,6 +442,17 @@
 	    $('[data-toggle="tooltip"]').tooltip(); 
 	})
 	</script>
-
+	<script src="https://use.typekit.net/wjy0xbi.js"></script>
+	<script>try{Typekit.load({ async: true });}catch(e){}</script>
+	<script>
+	  (function(d) {
+	    var config = {
+	      kitId: 'wjy0xbi',
+	      scriptTimeout: 3000,
+	      async: true
+	    },
+	    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+	  })(document);
+	</script>
 </body>
 </html>
