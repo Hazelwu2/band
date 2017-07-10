@@ -70,7 +70,7 @@ $(document).ready(function(){
  
   $('.close-modal,button').on('click',function(){
  
-    $('iframe',).attr('src', $('iframe').attr('src'));
+    $('iframe',).attr('src', $('this').attr('src'));
   });
 
 })
