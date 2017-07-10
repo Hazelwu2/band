@@ -200,6 +200,10 @@ footer {
   margin-top: 50px;
 }
 
+#portfolio p {
+  letter-spacing: 1px;
+}
+
 /* RWD */
 @media (max-width: 600px) {
   .carousel-caption {
