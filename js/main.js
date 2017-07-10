@@ -71,12 +71,6 @@ $(document).ready(function(){
   $('.close-modal,button').on('click',function(){
  
     $('iframe',).attr('src', $('iframe').attr('src'));
-    // var song = $('.modal-body').find('Iframe').attr('src');
-    // $('.modal-body').prepend(song);
   });
-  // $('.music').on('click',function(){
-    
-  //   $(iframeVideo).prop('src',iframeVideoSrc);
-  //   // $('.moda-body').prepend(iframeVideo);
-  // });
+
 })

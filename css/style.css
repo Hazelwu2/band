@@ -1,4 +1,9 @@
 /* Add a dark background color with a little bit see-through */ 
+
+.toggle {
+  transition: all 0.3s;
+}
+
 .navbar {
     margin-bottom: 0;
     background-color: #2d2d30;
@@ -6,6 +11,11 @@
     font-size: 11px !important;
     letter-spacing: 4px;
     opacity:0.9;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #167ac6;
+    background-color: transparent;
 }
 
 /* Add a gray color to all navbar links */
@@ -173,7 +183,9 @@
   margin-bottom: 5px;
   width: 80%;
   height: 80%;
-  opacity: 0.7; }
+  opacity: 0.7; 
+  transition: all .4s;
+}
 
 .person:hover {
   border-color: #f1f1f1; }
@@ -189,8 +201,18 @@
 
 .title-intro {
   margin-bottom: 40px;
+  letter-spacing: 2px;
+  font-weight: 100
 }
 
+.title-intro p {
+  line-height: 24px;
+}
+
+.title-intro strong {
+    letter-spacing: 2px;
+    font-size: 3rem;
+}
 #portfolio .h4 {
   margin-bottom: 30px;
 }
@@ -230,6 +252,10 @@ footer {
    }
   }
 @media (min-width: 768px) {
-
-
+  .person {
+    width: 100%;
+  }
+  .button.data {
+   width: 100%;
+  }
 }
