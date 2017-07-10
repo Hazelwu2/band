@@ -67,13 +67,16 @@ $(document).ready(function(){
     return value;
   }
 
-  // Iframe Close
-  // $('.portfolio-modal btn').on('click',function(){
-  //   $('.modal-body').remove();
-  // })
-  $('.close-modal').on('click',function(){
-    $('.modal-body #iframe').attr('href').reload();
-  })
-
-
+ 
+  $('.close-modal,button').on('click',function(){
+ 
+    $('iframe',).attr('src', $('iframe').attr('src'));
+    // var song = $('.modal-body').find('Iframe').attr('src');
+    // $('.modal-body').prepend(song);
+  });
+  // $('.music').on('click',function(){
+    
+  //   $(iframeVideo).prop('src',iframeVideoSrc);
+  //   // $('.moda-body').prepend(iframeVideo);
+  // });
 })
