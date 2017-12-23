@@ -30,7 +30,8 @@ $(document).ready(function(){
 
   // init Isotope
   var $grid = $('.grid').isotope({
-    itemSelector: '.music'
+    itemSelector: '.music',
+    layoutMode: 'fitRows'
   });
 
   // store filter for each group
@@ -46,7 +47,9 @@ $(document).ready(function(){
     // combine filters
     var filterValue = concatValues( filters );
     // set filter for Isotope
-    $grid.isotope({ filter: filterValue });
+    $grid.isotope({ 
+      filter: filterValue
+    });
   });
 
   // change is-checked class on buttons
@@ -70,7 +73,7 @@ $(document).ready(function(){
  
   $('.close-modal,button').on('click',function(){
  
-    $('iframe',).attr('src', $('this').attr('src'));
+    $('iframe').attr('src', $('this').attr('src'));
   });
 
 })

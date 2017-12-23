@@ -1,5 +1,6 @@
 /* Add a dark background color with a little bit see-through */ 
 
+
 .toggle {
   transition: all 0.3s;
 }
@@ -128,12 +129,35 @@
 }
 
 /* Isotope*/
+
+/*********** Navigation Styling ***********/
+
+.iso-nav, li {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  padding: 10px 15px;
+  list-style: none;
+}
+
 #portfolio .row {
   padding-right: 15px;
 }
+
+/*item music setting */
+
 .grid {
-  margin-top: 15px;
+  width: 100%;
 }
+
+.music {
+  width: 303px;
+  margin-bottom: 10px;
+  float: left;
+  padding: 10px;
+  display: inline-block;
+}
+
 .filters {
   margin-bottom: 30px;
 }
@@ -145,7 +169,6 @@
 
 .hover-bg {
   position: relative;
-  // height: 141px;
   overflow: hidden;
 }
 
@@ -175,15 +198,10 @@
 }
 
 /* button person */
-.button-group .all {
 
-  background-image: url(../imgs/all.jpg);
-  background-size: cover;
-  background-position: center;
-  max-width: 16vh;
-  min-height: 13vh;
+li {
+  display: inline-block;
 }
-
 .person {
   border: 10px solid transparent;
   margin-bottom: 5px;
@@ -196,10 +214,6 @@
 .person:hover {
   border-color: #f1f1f1; }
 
-#ev8d {
-  margin-bottom: 20px;
-  // padding: 0;
-}
 
 .page-title {
   margin-top: 100px;
@@ -228,6 +242,10 @@
   margin-bottom: 30px;
   line-height: 24px;
 }
+small {
+  display: block;
+}
+
 
 /* footer */
 footer {
@@ -257,7 +275,7 @@ footer {
       border: none;
    }
    .button.data {
-    width: 100%;
+      width: 100%;
    }
    .small-m {
      font-size: 8px;
@@ -272,12 +290,16 @@ footer {
   .close-modal .lr , .close-modal .rl {
     height: 45px;
   }
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
+
   .person {
     width: 100%;
   }
   .button.data {
    width: 100%;
+  }
+  .img-circle.person {
+    display: block;
   }
 
 }
