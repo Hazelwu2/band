@@ -15,7 +15,7 @@
 <body id="portfolio" data-spy="scroll" data-target=".navbar" data-offset="50">
 
 
-<header>	
+<header id="header">	
 		<nav class="navbar navbar-default navbar-fixed-top">
 		  <div class="container-fluid">
 		    <div class="navbar-header">
@@ -62,32 +62,32 @@
 				    <ul class="button-group iso-nav">
                 <li>
     		            <button href="#" data-filter="*" class="button data">
-    									<img src="imgs/blue.jpg" class="img-circle person" alt="All person">
-    									<small class="hidden-xs button-description">All</small>
+    									<img src="imgs/all.jpg" class="img-circle person all" alt="All person">
+    									<small class="button-description">All</small>
     		            </button>
     		        </li>
 		            <li>
 				            <button href="#" data-filter=".r-blue" class="button data">
 											<img src="imgs/blue.jpg" class="img-circle person" alt="Blue">
-											<small class="hidden-xs button-description">Blue Chen</small>
+											<small class="button-description">Blue Chen</small>
 				            </button>
 				        </li>
 				        <li>
 				            <button href="#" data-filter=".r-hazel" class="button data">
 				            	<img src="imgs/hazel.jpg" class="img-circle person" alt="hazel">
-				            	<small class="hidden-xs button-description">Hazel Wu</small>
+				            	<small class="button-description">Hazel Wu</small>
 				            </button>
 				        </li>
 				        <li>
 				            <button href="#" data-filter=".r-michelle" class="button data">
 				            	<img src="imgs/michelle.jpg" class="img-circle person" alt="michelle">
-				            	<small class="hidden-xs button-description">Michelle Lin</small>
+				            	<small class="button-description">Michelle Chen</small>
 				            </button>
 				        </li>
 				        <li>
 				            <button href="#" data-filter=".r-xosha" class="button data">
 				            	<img src="imgs/xosha.jpg" class="img-circle person" alt="Xosha">
-				            	<small class="hidden-xs button-description">Xosha Lin</small>
+				            	<small class="button-description">Xosha Lin</small>
 				            </button>
 				        </li>
 		        </ul>
@@ -200,11 +200,39 @@
 					        </a>
 				        </div>
 					</div>
-				</div> <!-- grid clude -->
-			</div>
-		</div> <!-- container clude -->
+
+					<!--Titanium Cover-->
+					<div class="music r-michelle r-hazel r-blue r-xosha" > 
+				        <div class="hover-bg">
+					        <a href="#myModal_9" data-toggle="modal">
+						        <img class="img-responsive" src="imgs/portfolio/v9.PNG">
+						        <div class="hover-text">
+						        	<h3>Titanium</h3>
+						        	<small>Cover By 有為青年</small>
+						        </div>
+					        </a>
+				        </div>
+					</div>
+
+					<!-- 吳汶芳 - 我在哪裡 -->
+					<div class="music r-michelle r-hazel" > 
+				        <div class="hover-bg">
+					        <a href="#myModal_10" data-toggle="modal">
+						        <img class="img-responsive" src="imgs/portfolio/v10.PNG">
+						        <div class="hover-text">
+						        	<h3>吳汶芳 - 我在哪裡</h3>
+						        	<small>Cover By Michelle &amp; Hazel</small>
+						        </div>
+					        </a>
+				        </div>
+					</div>
+
+				</div> <!-- grid end -->
+			</div> <!-- row end -->
+		</div> <!-- container end -->
 		
-		<!--Modal Box Started-->
+		<!--  Modal Box Started  -->
+
 		<!-- 你敢不敢-->
 		<div class="modal fade" id="myModal_1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 		            <div class="portfolio-modal modal-content" role="document"> 
@@ -382,30 +410,82 @@
 		</div>
 		<!--The Script - The man who can't be move drum-->
 		<div class="modal fade" id="myModal_8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-            <div class="portfolio-modal modal-content" role="document"> 
-            	<div class="close-modal" data-dismiss="modal">
-            		<div class="lr">
-            			<div class="rl"></div>
-            		</div>
-            	</div>
-				<div class ="container">
-            		<div class="row">
-            			<div class="col-lg-8 col-lg-offset-2">
-            				<div class="modal-body">
-            					<div class="embed-responsive embed-responsive-16by9">
-            						<iframe id="iframe" class="embed-responsive-item" src="https://youtube.com/embed/vxAGS6FUL74"></iframe>
-            					</div>
-            					<p>The Script - The man who can't be move <br>
-            					<strong>Drum cover / Michelle Chen</strong></p>
-            					<button type="button" class="btn btn-default" data-dismiss="modal">
-            					<i class="glyphicon glyphicon-remove-circle"> Close</i></button>
-            				</div>
-            			</div>
-            		</div>
-            	</div>
-    	    </div>
+		            <div class="portfolio-modal modal-content" role="document"> 
+		            	<div class="close-modal" data-dismiss="modal">
+		            		<div class="lr">
+		            			<div class="rl"></div>
+		            		</div>
+		            	</div>
+		            	<div class="container">
+		            		<div class="row">
+		            			<div class="col-lg-8 col-lg-offset-2">
+		            				<div class="modal-body">
+		            					<div class="embed-responsive embed-responsive-16by9">
+		            						<iframe class="embed-responsive-item" src="https://youtube.com/embed/vxAGS6FUL74"></iframe>
+		            					</div>
+		            					<p>The Script - The man who can't be move<br>
+		            					<strong>Drum cover / Michelle Chen</strong></p>
+		            					<button type="button" class="btn btn-default" data-dismiss="modal">
+		            					<i class="glyphicon glyphicon-remove-circle"> Close</i></button>
+		            				</div>
+		            			</div>
+		            		</div>
+		            	</div>
+		    	    </div>
 		</div>
-	</div>
+		
+		<!--Titanium cover-->
+		<div class="modal fade" id="myModal_9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		            <div class="portfolio-modal modal-content" role="document"> 
+		            	<div class="close-modal" data-dismiss="modal">
+		            		<div class="lr">
+		            			<div class="rl"></div>
+		            		</div>
+		            	</div>
+		            	<div class="container">
+		            		<div class="row">
+		            			<div class="col-lg-8 col-lg-offset-2">
+		            				<div class="modal-body">
+		            					<div class="embed-responsive embed-responsive-16by9">
+		            						<iframe class="embed-responsive-item" src="https://youtube.com/embed/L5RZnKCBA0A"></iframe>
+		            					</div>
+		            					<p>Titanium - Cover <br>
+		            					<strong>有為青年 / Michelle / Blue / Xosha / Hazel</strong></p>
+		            					<button type="button" class="btn btn-default" data-dismiss="modal">
+		            					<i class="glyphicon glyphicon-remove-circle"> Close</i></button>
+		            				</div>
+		            			</div>
+		            		</div>
+		            	</div>
+		    	    </div>
+		</div>
+		
+		<!--吳汶芳 - 我在哪裡 -->
+		<div class="modal fade" id="myModal_10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		            <div class="portfolio-modal modal-content" role="document"> 
+		            	<div class="close-modal" data-dismiss="modal">
+		            		<div class="lr">
+		            			<div class="rl"></div>
+		            		</div>
+		            	</div>
+		            	<div class="container">
+		            		<div class="row">
+		            			<div class="col-lg-8 col-lg-offset-2">
+		            				<div class="modal-body">
+		            					<div class="embed-responsive embed-responsive-16by9">
+		            						<iframe class="embed-responsive-item" src="https://youtube.com/embed/KXhVhj65c-c"></iframe>
+		            					</div>
+		            					<p>吳汶芳 - 我在哪裡<br>
+		            					<strong>Cover / Michelle / Hazel </strong></p>
+		            					<button type="button" class="btn btn-default" data-dismiss="modal">
+		            					<i class="glyphicon glyphicon-remove-circle"> Close</i></button>
+		            				</div>
+		            			</div>
+		            		</div>
+		            	</div>
+		    	    </div>
+		</div>
+
 	</div>	
 </div>
 	

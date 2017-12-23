@@ -30,8 +30,7 @@ $(document).ready(function(){
 
   // init Isotope
   var $grid = $('.grid').isotope({
-    itemSelector: '.music',
-    layoutMode: 'fitRows'
+    itemSelector: '.music'
   });
 
   // store filter for each group
@@ -71,9 +70,10 @@ $(document).ready(function(){
   }
 
  
-  $('.close-modal,button').on('click',function(){
- 
-    $('iframe').attr('src', $('this').attr('src'));
+
+  $('.close-modal, button').on('click', function(){
+     $('iframe',).attr('src',     
+          $('iframe').attr('src'));
   });
 
 })

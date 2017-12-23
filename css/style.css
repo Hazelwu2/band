@@ -1,5 +1,8 @@
 /* Add a dark background color with a little bit see-through */ 
 
+.img-circle {
+  border-radius: 30%;
+}
 
 .toggle {
   transition: all 0.3s;
@@ -132,7 +135,7 @@
 
 /*********** Navigation Styling ***********/
 
-.iso-nav, li {
+.iso-nav {
   margin: 0;
   padding: 0;
   display: inline-block;
@@ -140,9 +143,6 @@
   list-style: none;
 }
 
-#portfolio .row {
-  padding-right: 15px;
-}
 
 /*item music setting */
 
@@ -151,10 +151,10 @@
 }
 
 .music {
-  width: 303px;
+  width: 380px;
   margin-bottom: 10px;
   float: left;
-  padding: 10px;
+  padding: 5px;
   display: inline-block;
 }
 
@@ -202,6 +202,9 @@
 li {
   display: inline-block;
 }
+
+small { display: block; }
+
 .person {
   border: 10px solid transparent;
   margin-bottom: 5px;
@@ -242,9 +245,7 @@ li {
   margin-bottom: 30px;
   line-height: 24px;
 }
-small {
-  display: block;
-}
+
 
 
 /* footer */
@@ -266,17 +267,32 @@ footer {
     padding-top: 9%;
     border: 10px solid rgba(0,0,0,.5);
   }
-  .v5 {
-    height: 173px;
+  
+  .iso-nav li {
+    display: inline-block;
+  }
+  
+  .iso-nav li:first-child {
+    display: block;
+  }
+
+  .iso-nav li:first-child button{
     width: 100%;
-   }
-   .person {
-      width: 100%;
-      border: none;
-   }
-   .button.data {
-      width: 100%;
-   }
+  }
+
+  .all {
+    width: 22em;
+    text-align: center;
+    border-radius: 20px;
+  }
+
+  .button.data {
+    width: 120px;
+    padding: 0;
+  }
+
+  .music { width: fit-content; }
+
    .small-m {
      font-size: 8px;
    }
@@ -290,16 +306,20 @@ footer {
   .close-modal .lr , .close-modal .rl {
     height: 45px;
   }
+}
 @media screen and (min-width: 768px) {
 
-  .person {
-    width: 100%;
-  }
-  .button.data {
-   width: 100%;
-  }
+
   .img-circle.person {
-    display: block;
+    display: inline-block;
+  }
+  .all{
+    width: 100%;
+    height: 105px;
   }
 
+  .music { width: 380px; }
+
 }
+
+
