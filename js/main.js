@@ -69,11 +69,13 @@ $(document).ready(function(){
     return value;
   }
 
- 
-
-  $('.close-modal, button').on('click', function(){
-     $('iframe',).attr('src',     
-          $('iframe').attr('src'));
+  $('.modal').on('hidden.bs.modal', function(){
+    var $iframe = $(this).find('iframe');
+    var videoSrc = $iframe.attr('src');
+        
+    console.log(videoSrc);
+    $iframe.attr('src', '');
+    $iframe.attr('src', videoSrc);
   });
 
 })
