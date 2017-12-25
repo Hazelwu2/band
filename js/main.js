@@ -73,7 +73,6 @@ $(document).ready(function(){
     var $iframe = $(this).find('iframe');
     var videoSrc = $iframe.attr('src');
         
-    console.log(videoSrc);
     $iframe.attr('src', '');
     $iframe.attr('src', videoSrc);
   });
